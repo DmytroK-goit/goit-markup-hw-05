@@ -557,6 +557,10 @@ svg {
   margin-right: 80px;
 }
 
+.footer-subbscribe {
+  background-color: #2e2f42;
+}
+
 .footer-subbscribe-email {
   width: 264px;
   height: 40px;
@@ -567,9 +571,15 @@ svg {
   padding: 8px auto 8px 16px;
 }
 
-.footer-subbscribe-form {
+.form-subbscribe {
   display: flex;
-  align-items: center;
+  flex-direction: row;
+}
+
+
+
+.form-subbscribe-lable {
+  gap: 24px;
 }
 
 .footer-sub-btn {
@@ -591,6 +601,7 @@ svg {
   cursor: pointer;
 }
 
+/* < !-- overlay --> */
 .modal-overlay {
   position: relative;
   background-color: rgba(46, 47, 66, 0.4);
