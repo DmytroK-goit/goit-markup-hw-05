@@ -591,6 +591,39 @@ svg {
   cursor: pointer;
 }
 
+.modal-overlay {
+  position: relative;
+  background-color: rgba(46, 47, 66, 0.4);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  display: flex;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.modal-overlay.is-open {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.modal {
+  position: absolute;
+  background: #fcfcfc;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12),
+    0 2px 1px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 form {
   display: flex;
   flex-direction: column;
@@ -619,11 +652,23 @@ form {
   text-align: end;
 }
 
+.form-btn-cloth:hover,
+.form-btn-cloth:active {
+  fill: #404bbf;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .form-lable {
   display: flex;
   flex-direction: column;
 }
 
+.prive-policy {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+}
 
 .form-lable-btn {
   width: 169px;
@@ -644,7 +689,7 @@ form {
 
 }
 
-.modal {
+.modal-window {
   position: relative;
   display: flex;
   align-items: center;
@@ -652,14 +697,46 @@ form {
 
 .form-lable-name-svg {
   position: absolute;
-  fill: gray;
+  margin: 8px auto 8px 16px;
+
 }
 
-.fill {
-  fill: #e7e9fc;
+/* .fill-svg::before {
+  fill: #404bbf;
+} */
+
+.form-lable-name,
+.form-lable-tel,
+.form-lable-email {
+  padding-left: 40px;
+  width: 100%;
 }
 
-.form-lable-name {
-  padding-left: 20px;
-  width: auto;
+/* .modal:focus-within {
+  fill: #404bbf;
+  border-color: #31d0aa;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+} */
+
+
+.prive-policy-text {
+  padding-left: 8px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.04em;
+  color: #8e8f99
+}
+
+.prive-policy-text-span {
+  line-height: 1.33;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #4d5ae5;
+}
+
+.modal-window:focus-within svg,
+.modal-window:focus-within input {
+  fill: blue;
+  border-color: #31d0aa;
 }
