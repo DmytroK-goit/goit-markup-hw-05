@@ -603,7 +603,7 @@ svg {
   background-color: #4d5ae5;
   gap: 8px;
   cursor: pointer;
-
+  min-width: 165px;
 }
 
 .footer-sub-btn-svg {
