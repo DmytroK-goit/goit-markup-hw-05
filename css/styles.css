@@ -653,17 +653,6 @@ svg {
 .form-modal {
   display: flex;
   flex-direction: column;
-
-  /* border-radius: 4px;
-  width: 408px;
-  min-height: 584px;
-  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.2);
-  background: #fcfcfc;
-  position: relative;
-  margin: auto;
-  padding: 24px;
-  gap: 8px;
-  margin-top: 24px; */
 }
 
 .form-header {
@@ -675,6 +664,9 @@ svg {
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 16px;
+}
+.form-modal-lable {
+  margin-bottom: 8px;
 }
 
 .form-btn-cloth {
@@ -726,6 +718,12 @@ svg {
 .form-lable {
   display: flex;
   flex-direction: column;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+  display: block;
+  margin-bottom: 4px;
 }
 
 .prive-policy {
