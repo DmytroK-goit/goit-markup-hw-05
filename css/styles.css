@@ -647,12 +647,13 @@ svg {
   transform: translate(-50%, -50%);
   width: 408px;
   min-height: 584px;
+  padding: 72px 24px 24px 24px;
 }
 
 .form-modal {
   display: flex;
   flex-direction: column;
-  padding: 72px 24px 24px 24px;
+
   /* border-radius: 4px;
   width: 408px;
   min-height: 584px;
@@ -714,10 +715,12 @@ svg {
 
 .form-btn-cloth-svg:hover {
   fill: #404bbf;
+  fill: #ffffff;
 }
 
 .form-btn-cloth-svg:focus {
   fill: #404bbf;
+  fill: #ffffff;
 }
 
 .form-lable {
@@ -766,7 +769,6 @@ svg {
 
 .form-modal-div {
   margin-top: 0;
-  padding: 72px 24px 24px 24px;
 }
 
 .form-lable-name,
