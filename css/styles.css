@@ -762,7 +762,10 @@ svg {
 
 .form-lable-name-svg {
   position: absolute;
-  margin: 8px auto 8px 16px;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-modal-div {
@@ -779,14 +782,14 @@ svg {
   background-color: transparent;
   outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  height: 40px;
+  fill: #4d5ae5;
+}
+.form-lable-name:focus,
+.form-lable-tel:focus,
+.form-lable-email:focus {
   border-color: #4d5ae5;
 }
-
-/* .modal:focus-within {
-  fill: #404bbf;
-  border-color: #31d0aa;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-} */
 
 .prive-policy-text {
   padding-left: 8px;
@@ -802,10 +805,4 @@ svg {
   text-decoration: underline;
   text-decoration-skip-ink: none;
   color: #4d5ae5;
-}
-
-.modal-window:focus-within svg,
-.modal-window:focus-within input {
-  fill: blue;
-  border-color: #31d0aa;
 }
