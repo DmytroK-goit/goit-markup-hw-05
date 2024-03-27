@@ -582,8 +582,10 @@ svg {
   box-shadow: none;
   padding: 0;
   margin: 0;
-
+  max-height: 40px;
+  max-width: 40px;
 }
+
 
 .footer-sub-btn {
   display: flex;
@@ -601,10 +603,12 @@ svg {
   background-color: #4d5ae5;
   gap: 8px;
   cursor: pointer;
+
 }
 
 .footer-sub-btn-svg {
   margin-left: 16px;
+  height: 40px;
 }
 
 /* < !-- overlay --> */
@@ -641,7 +645,7 @@ svg {
   transform: translate(-50%, -50%);
 }
 
-form {
+.form-modal {
   display: flex;
   flex-direction: column;
   border-radius: 4px;
