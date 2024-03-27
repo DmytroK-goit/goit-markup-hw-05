@@ -557,36 +557,39 @@ svg {
   margin-right: 80px;
 }
 
-.footer-subbscribe {
-  display: flex;
-  gap: 24px;
-}
+/* subscribe */
 
 .footer-subbscribe-email {
   width: 264px;
   height: 40px;
-  background-color: #2e2f42;
+  background-color: transparent;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
   border-radius: 4px;
+  color: #ffffff;
   border: 1px solid #fff;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  padding: 8px auto 8px 16px;
+  padding-left: 16px;
 }
 
 .form-subbscribe {
   display: flex;
   flex-direction: row;
-}
-
-
-
-.form-subbscribe-lable {
   gap: 24px;
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+  padding: 0;
+  margin: 0;
+
 }
 
 .footer-sub-btn {
   display: flex;
   flex-direction: row;
-  justify-items: center;
+  justify-content: center;
+  align-items: center;
   border-radius: 4px;
   border: none;
   padding: 8px 24px;
@@ -594,12 +597,14 @@ svg {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  text-align: center;
   color: #fff;
   background-color: #4d5ae5;
-  margin-left: 24px;
   gap: 8px;
   cursor: pointer;
+}
+
+.footer-sub-btn-svg {
+  margin-left: 16px;
 }
 
 /* < !-- overlay --> */
@@ -641,7 +646,7 @@ form {
   flex-direction: column;
   border-radius: 4px;
   width: 408px;
-  height: 584px;
+  min-height: 584px;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.2);
   background: #fcfcfc;
   position: relative;
