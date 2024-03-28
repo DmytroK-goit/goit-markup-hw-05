@@ -750,6 +750,7 @@ svg {
 }
 
 .prive-policy {
+  margin-bottom: 24px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -822,6 +823,7 @@ svg {
   line-height: 1.16;
   letter-spacing: 0.04em;
   color: #8e8f99;
+  line-height: 1.17;
 }
 
 .prive-policy-text-span {
