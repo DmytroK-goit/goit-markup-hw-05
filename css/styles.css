@@ -823,10 +823,9 @@ svg {
   fill: #f4f4fd;
 }
 .prive-policy-span {
-  position: relative;
-  /* display: inline-flex;
+  display: inline-flex;
   align-items: center;
-  justify-content: center; */
+  justify-content: center;
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
