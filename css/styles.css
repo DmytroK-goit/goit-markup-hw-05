@@ -803,7 +803,7 @@ svg {
   border-color: #4d5ae5;
 }
 .lable-input:focus + svg {
-  fill: #404bbf;
+  fill: #4d5ae5;
 }
 
 .prive-policy-text {
