@@ -690,16 +690,15 @@ svg {
 }
 
 .form-btn-cloth:hover {
+  fill: #ffffff;
   background-color: #404bbf;
   border: none;
-  fill: #ffffff;
 }
 
 .form-btn-cloth:focus {
   background-color: #404bbf;
   fill: #ffffff;
   border: none;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-btn-cloth-svg {
@@ -815,8 +814,7 @@ svg {
   display: flex;
   align-items: center;
 }
-.prive-policy-svg {
-}
+
 .policy-input-chekbox:checked + .prive-policy-text span {
   background-color: #404bbf;
   border: none;
