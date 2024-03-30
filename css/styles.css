@@ -749,7 +749,8 @@ svg {
 }
 
 .form-lable-btn {
-  width: 169px;
+  min-width: 169px;
+  border: none;
   height: 56px;
   font-weight: 500;
   font-size: 16px;
@@ -764,6 +765,7 @@ svg {
   text-align: center;
   margin: auto;
   cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-window {
@@ -780,9 +782,7 @@ svg {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.form-lable-name,
-.form-lable-tel,
-.form-lable-email {
+.lable-input {
   padding-left: 38px;
   width: 100%;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -812,6 +812,10 @@ svg {
   letter-spacing: 0.04em;
   color: #8e8f99;
   line-height: 1.17;
+  display: flex;
+  align-items: center;
+}
+.prive-policy-svg {
 }
 
 .prive-policy-text-span {
@@ -819,15 +823,15 @@ svg {
   text-decoration: underline;
   text-decoration-skip-ink: none;
   color: #4d5ae5;
-  width: 16px;
-  height: 16px;
+  /* width: 16px; */
+  /* height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  display: inline-flex;
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1); */
+  /* display: inline-flex;
   align-items: center;
   justify-content: center;
-  fill: transparent;
+  fill: transparent; */
 }

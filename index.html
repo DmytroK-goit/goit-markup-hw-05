@@ -461,7 +461,7 @@
             <label class="form-lable" for="user-name">Name</label>
             <div class="modal-window">
               <input
-                class="form-lable-name lable-input"
+                class="lable-input"
                 name="user-name"
                 id="user-name"
                 type="text"
@@ -474,12 +474,7 @@
           <div class="form-modal-lable">
             <label class="form-lable" for="Phone">Phone</label>
             <div class="modal-window">
-              <input
-                class="form-lable-tel lable-input"
-                type="tel"
-                name="Phone"
-                id="Phone"
-              />
+              <input class="lable-input" type="tel" name="Phone" id="Phone" />
               <svg class="form-lable-name-svg" width="18" height="24">
                 <use class="fill-svg" href="./images/icons.svg#icon-tel"></use>
               </svg>
@@ -489,7 +484,7 @@
             <label class="form-lable">Email</label>
             <div class="modal-window">
               <input
-                class="form-lable-email lable-input"
+                class="lable-input"
                 type="email"
                 name="Email"
                 id="modal-email"
@@ -513,16 +508,20 @@
             ></textarea>
           </div>
           <div class="form-lable prive-policy">
-            <input
+            <!-- <input
               class="prive-policy-checkbox visually-hidden"
               type="checkbox"
               name="user-privacy"
               id="user-privacy"
               value="true"
-            />
-            <label class="form-label prive-policy-text" for="user-privacy"
-              >I accept the terms and conditions of the
-              <span class="prive-policy-text-span">Privacy Policy</span>
+            /> -->
+            <label class="prive-policy-text" for="user-privacy">
+              <span>
+                <svg class="prive-policy-svg" width="10" height="8">
+                  <use href="./images/icons.svg#icon-chekbox"></use></svg
+              ></span>
+              I accept the terms and conditions of the
+              <a class="prive-policy-text-span" href="#">Privacy Policy</a>
             </label>
           </div>
           <button class="form-lable-btn" type="submit">Send</button>
