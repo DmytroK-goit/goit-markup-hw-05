@@ -771,12 +771,6 @@ svg {
   display: flex;
   align-items: center;
 }
-/* .modal-window:hover {
-  border-color: #4d5ae5;
-  fill: #404bbf;
-}
-.modal-window:focus {
-} */
 
 .form-lable-name-svg {
   position: absolute;
@@ -798,22 +792,15 @@ svg {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   height: 40px;
 }
-.form-lable-name:hover + svg,
-.form-lable-tel:hover + svg,
-.form-lable-email:hover + svg {
-  border-color: #4d5ae5;
+.lable-input:hover + svg {
   fill: #404bbf;
 }
 
-.form-lable-name:hover,
-.form-lable-tel:hover,
-.form-lable-email:hover {
+.lable-input:hover {
   border-color: #4d5ae5;
 }
 
-.form-lable-name:focus,
-.form-lable-tel:focus,
-.form-lable-email:focus {
+.lable-input:focus {
   border-color: #4d5ae5;
 }
 
