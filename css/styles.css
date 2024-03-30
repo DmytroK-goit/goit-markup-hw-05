@@ -817,6 +817,11 @@ svg {
 }
 .prive-policy-svg {
 }
+.policy-input-chekbox:checked + .prive-policy-text span {
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
+}
 .prive-policy-span {
   width: 16px;
   height: 16px;
